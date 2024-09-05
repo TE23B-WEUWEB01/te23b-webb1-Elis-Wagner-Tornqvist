@@ -1,0 +1,69 @@
+body{
+
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+
+
+    
+}
+
+h1{
+
+
+        font-family: "Protest Guerrilla", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      color: white;
+
+      text-align: center;
+        
+      
+    
+
+}
+
+p {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+     text-align: center;
+    background-color: rgba(126, 0, 42, 0.589);
+    width: 400px;
+    padding: 80px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 300px;
+}
+
+img{
+
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+a{
+
+
+}
+
+.bubbla {
+
+padding: 10px;
+padding-left: 10px;
+
+}
+
+.Källa{
+padding: 10px;
+
+}
