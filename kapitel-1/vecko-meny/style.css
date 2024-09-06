@@ -1,0 +1,74 @@
+body {
+  margin: 125px;
+  margin-top: 20px;
+  background-color: bisque;
+
+  transition: all 2s;
+
+}
+
+table {
+
+margin: auto;
+
+}
+
+caption {
+    background-image: url("./bilder/images.jpg");
+    font-size: 70px;
+    color: brown
+    font-weight: bold;
+   
+}
+
+th {
+background-color: blanchedalmond;
+color: rgb(94, 2, 2);
+
+}
+
+th:hover {
+
+color: aqua;
+
+}
+
+
+tr {
+
+    background-color: rgb(253, 198, 126);
+    
+
+}
+
+td:hover {
+
+    
+    font-size: 20px;
+    
+
+}
+
+
+td {
+    padding : 15px;
+    color: brown
+    
+}
+
+
+img {
+
+    width: 170px;
+    transition: all 0.5s;
+
+}
+
+img:hover {
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid brown;
+    border-radius: 50%;
+
+}
