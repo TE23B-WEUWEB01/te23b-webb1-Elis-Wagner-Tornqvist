@@ -1,0 +1,39 @@
+
+
+body {
+    background-image: url("./bilder/The_Earth_seen_from_Apollo_17.jpg");
+
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: -450px 0px;
+
+
+
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+    width: 500px;
+    margin-left: 100px;
+    
+}
+
+
+h1:hover{
+
+    color: #002aff;
+    font-size: 100px;
+    text-shadow: 2px 2px 2px #ff00aa;
+    
+}
+
+h1 {
+
+    transition: all 0.5s;
+
+}
+
+
+
