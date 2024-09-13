@@ -35,5 +35,10 @@ h1 {
 
 }
 
+img:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+
 
 
