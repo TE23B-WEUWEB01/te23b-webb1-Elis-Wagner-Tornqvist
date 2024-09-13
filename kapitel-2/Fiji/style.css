@@ -19,6 +19,8 @@ h1:active {
 }
 
 
+
+
 h1 {
   font-family: "SUSE", sans-serif;
   font-optical-sizing: auto;
@@ -31,6 +33,7 @@ h1 {
     color: turquoise;
     text-shadow: 6px 6px 0px #ff65ce;
     text-transform: uppercase;
+    transition: all 0.5s;
 
 }
 
