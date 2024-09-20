@@ -3,19 +3,19 @@ h1 {
     font-size: 90px;
     font-family: "Sevillana", cursive;
 
-}
+} 
 
 h2 {
     color: crimson;
-    font-size: 40px;
+    font-size: 40px;     
     font-family: "Noto Sans JP", sans-serif;
-}
+}                            
 
-p {
+p {                               
     color: darkblue;
-    font-size: 15px;
+    font-size: 15px; 
     font-family:'Times New Roman', Times, serif;
-}
+}               
 
 a {
     color: blue;
