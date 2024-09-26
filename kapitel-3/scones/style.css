@@ -1,0 +1,76 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url(./bilder/victor-rodriguez-iglesias-zTG8dSz10tQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div {
+
+    width: 600px;
+    margin: auto;
+    background-color: rgb(255, 177, 177);
+    border-radius: 15px;
+    padding: 35px;
+    border: 10px solid red;
+    text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+    color: red;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h1 {
+
+    margin-bottom: 15px;
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+   font-style: normal;
+       
+      
+}
+
+img {
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 5px solid red;
+}
+
+.need {
+    margin-bottom: 0px;
+}
+
+p {
+     margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    list-style-type: upper-roman;
+}
+
+li {
+
+}
