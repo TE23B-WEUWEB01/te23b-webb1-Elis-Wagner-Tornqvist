@@ -1,0 +1,80 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* layoutens utseende */
+
+body.sida1 {
+
+    background-image: url(./bilder/flowers-8383945_640.jpg);
+
+}
+
+body.sida2 {
+
+    background-image: url(./bilder/cosmos-5809271_640.png);
+
+}
+
+body.sida3 {
+    background-image: url(./bilder/fruits-6845254_640.jpg);
+}
+
+body.sida4 {
+    background-image: url(./bilder/leaves-8724660_640.jpg);
+}
+
+body.sida5 {
+    background-image: url(./bilder/pattern-3296033_640.png);
+}
+
+body.sida6{
+    background-image: url(./bilder/twigs-4211837_640.jpg);
+}
+
+
+div {
+
+    background-color: #fff;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-top: 150px;
+    border: 5px dashed grey;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+/* innehållets utseende */
+h1 {
+
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+a {
+
+    font-size: 40px;
+    text-decoration: none;
+    color: brown;
+}
