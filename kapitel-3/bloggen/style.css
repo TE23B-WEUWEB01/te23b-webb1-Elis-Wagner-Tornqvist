@@ -1,0 +1,72 @@
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+
+    background-color: black;
+
+}
+
+h1 {
+    padding-left: 150px;
+    font-size: 60px;
+    padding-top: 30px;
+    color: azure;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+    
+}
+
+.stora {
+    background-color: green;
+    width: 500px;
+    margin: auto;
+    box-shadow: #555;
+    border-radius: 10px;
+}
+
+.lilla {
+    padding-left: 70px;
+    margin: auto;
+    background-color: burlywood;
+    width: 400px;
+    margin-bottom: 50px;
+    border: 4px, 4px, 4px brown;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: azure;
+    border-radius: 10px;
+    
+}
+
+
+
+.datum {
+    font-size: 18px;
+    padding-bottom: 1px;
+}
+
+
+
+p {
+    padding-bottom: 60px;
+
+}
+
+img {
+    border: 8px solid brown;
+    margin: auto;
+    margin-top: 40px;
+}
