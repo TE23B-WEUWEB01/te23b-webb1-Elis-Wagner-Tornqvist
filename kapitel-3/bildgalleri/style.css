@@ -1,0 +1,38 @@
+body {
+background-image: url(./bilder/6903870~large.jpg);
+
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kontainer {
+width: 800px;
+padding: 40px;
+}
+
+
+.box {
+background-color:black;
+padding: 50px;
+}
+
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h2 {
+
+}
+
+img {
+    width: 100%;
+
+}
+
+p {
+
+}
+
+

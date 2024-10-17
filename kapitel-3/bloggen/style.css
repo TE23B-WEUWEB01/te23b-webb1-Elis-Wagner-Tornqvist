@@ -1,4 +1,18 @@
 
+:root {
+
+
+/* CSS HEX */
+--vanilla: #d4e09bff;
+--olivine: #9cb380ff;
+--cambridge-blue: #94a89aff;
+--khaki: #c7ac92ff;
+--chestnut: #a44a3fff;
+/* färg pallet */
+}
+
+
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -15,7 +29,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 body {
 
-    background-color: black;
+    background-color: var(--cambridge-blue);
 
 }
 
