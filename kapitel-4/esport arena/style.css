@@ -37,7 +37,23 @@ background-color: #9061c9;
 
     background-color: #5a5a5a;
     color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
 
+}
+
+.kolumner {
+    display:flex;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.kolumn2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
 }
 
 /* Rubrikerna */
