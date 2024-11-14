@@ -1,0 +1,120 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+    background-color: #F3F3E0;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+
+.kontainer {
+ background-color: #133E87;
+ width: 1000px;
+ margin: auto;
+ padding: 20px;
+ margin-bottom: 15px;
+ display: flex;
+ flex-direction: row-reverse;
+ gap: 50px;
+ height: 525px;
+ border-radius: 10px;
+}
+
+
+.Left {
+    background-color: #608BC1;
+    width: 280px;
+    height: 220px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Middle {
+background-color: lightblue;
+width: 280px;
+height: 220px;    
+padding: 15px;
+border-radius: 10px;
+}
+
+.Right {
+    background-color: #CBDCEB;
+    width: 280px;
+    height: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    font-size: 60px;
+   
+}
+
+h2 {
+    text-align: center;
+    color: #F3F3E0;
+    
+
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    color:  #F3F3E0;
+    margin-top: 5px;
+    padding-top: 10px;
+ font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+img:hover {
+    width: 350px;
+    transition: 0.5s;
+}
+
+.Ltext {
+    color: #608BC1;
+}
+
+.Mtext {
+    color: lightblue;
+}
+
+.Rtext {
+color: #CBDCEB;
+}
+
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+
