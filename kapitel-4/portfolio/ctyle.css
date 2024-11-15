@@ -28,7 +28,7 @@ body {
  display: flex;
  flex-direction: row-reverse;
  gap: 50px;
- height: 525px;
+ height: 600px;
  border-radius: 10px;
 }
 
@@ -90,6 +90,10 @@ a {
     color: black;
 }
 
+table {
+    text-align: center;
+}
+
 a:hover {
     color: white;
 }
@@ -97,7 +101,10 @@ a:hover {
 img:hover {
     width: 350px;
     transition: 0.5s;
+
 }
+
+
 
 .Ltext {
     color: #608BC1;
@@ -109,6 +116,11 @@ img:hover {
 
 .Rtext {
 color: #CBDCEB;
+}
+
+.aktivitet {
+    display: flex;
+    flex-direction: column;
 }
 
 
