@@ -1,0 +1,91 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+
+}
+
+.kontainer {
+
+    background-color: green;
+    padding: 20px;
+    height: 600px;
+}
+
+.box{
+    background-color: red;
+    width: 800px;
+    border-radius: 20px;
+    margin: 20px auto 20px auto;
+    
+ }
+
+ .kontainer h1 {
+    text-align: center;
+    color: darkred;
+    text-transform: uppercase;
+    font: 30px;
+ }
+
+ ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px;
+ }
+
+ ul a {
+    text-decoration: none;
+     background-color: lightgreen;
+     border-radius: 5px;
+     padding: 10px;
+     display: inline-flex;
+     width: 100px;
+     box-shadow: 3px 3px 0 green;
+ }
+
+ li {
+
+
+ }
+
+ p {
+    padding-bottom: 15px;
+    color: darkgreen;
+ }
+
+ a {
+
+ }
+
+ figure {
+    margin: auto;
+    width: 400px;
+ }
+
+ img {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+
+ }
+
+ figcaption {
+    padding-bottom: 15px;
+    color: darkgreen;
+ }
+
+
+
+ .tack {
+
+ }
