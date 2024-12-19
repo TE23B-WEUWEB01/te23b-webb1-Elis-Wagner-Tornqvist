@@ -1,0 +1,175 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+    background-color: lightblue;
+}
+
+
+.ruta {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    margin: 100px auto;
+    animation: bytFärg 3s infinite;
+    animation: bytForm 3s infinite;
+    text-align: center;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.ruta-2 {
+    animation-delay: 2s;
+    animation: bytFärg2 3s infinite;
+    animation: bytForm2 3s infinite;
+
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    margin: 100px auto;
+    text-align: center;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+
+.emoji-2{
+    padding-top: 30px;
+    font-size: 30px;
+    }
+
+.emoji{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+@keyframes bytFärg2{
+
+    0% {
+        background-color: red;
+    }
+    25%{
+        background-color: rgb(238, 58, 121);
+    }
+
+    50% {
+        background-color: rgb(223, 8, 223);
+    }
+    75%{
+        background-color: rgb(234, 135, 234);
+    }
+    80% {
+        background-color: rgb(255, 198, 207);
+    }
+    100%{
+        background-color: red;
+    }
+
+}
+
+@keyframes bytFärg {
+    0% {
+        background-color: red;
+    }
+    25%{
+        background-color: rgb(238, 58, 121);
+    }
+
+    50% {
+        background-color: rgb(223, 8, 223);
+    }
+    75%{
+        background-color: rgb(234, 135, 234);
+    }
+    80% {
+        background-color: rgb(255, 198, 207);
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+@keyframes bytForm {
+    0% {
+        transform: scale(1) translateX(0) rotate(0deg);
+        box-shadow: 0 0 10px;
+        border-radius: 0%;
+        opacity: 0;
+    }
+
+    25%{
+        transform: scale(1.5) translateX(300px) rotate(180deg) translateY(-150px);
+        border-radius: 25%;
+        box-shadow: 0 0 15px;
+        opacity: 0.5;
+    }
+
+    50%{
+        transform: scale(2) translateY(100px) rotate(-180deg);
+        border-radius: 50%;
+        box-shadow: 0 0 25px;
+        opacity: 1;
+    }
+    75%{
+        transform: scale(1.5) translateX(-300px) rotate(-90deg);
+        border-radius: 25%;
+        box-shadow: 0 0 15px;
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1) translateY(0px) rotate(45deg);
+        box-shadow: 0 0 10px;
+        border-radius: 0%;
+        opacity: 0;
+    }
+
+
+}
+@keyframes bytForm2 {
+    0% {
+        transform: scale(1) translateX(0) rotate(0deg) translateY(-180px);
+        box-shadow: 0 0 10px;
+        border-radius: 0%;
+        opacity: 0;
+    }
+
+    25%{
+        transform: scale(1.5) translateX(300px) rotate(180deg);
+        border-radius: 25%;
+        box-shadow: 0 0 15px;
+        opacity: 0.5;
+    }
+
+    50%{
+        transform: scale(2) translateY(100px) rotate(-180deg);
+        border-radius: 50%;
+        box-shadow: 0 0 25px;
+        opacity: 1;
+    }
+    75%{
+        transform: scale(1.5) translateX(-300px) rotate(-90deg);
+        border-radius: 25%;
+        box-shadow: 0 0 15px;
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1) translateY(-180px) rotate(45deg);
+        box-shadow: 0 0 10px;
+        border-radius: 0%;
+        opacity: 0;
+    }
+
+
+}
+
+

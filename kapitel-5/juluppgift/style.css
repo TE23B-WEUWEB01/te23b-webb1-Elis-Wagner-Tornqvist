@@ -18,12 +18,12 @@ body {
 
     background-color: green;
     padding: 20px;
-    height: 600px;
+    height: 800px;
 }
 
 .box{
     background-color: red;
-    width: 800px;
+    width: 600px;
     border-radius: 20px;
     margin: 20px auto 20px auto;
     
@@ -34,6 +34,7 @@ body {
     color: darkred;
     text-transform: uppercase;
     font: 30px;
+
  }
 
  ul {
@@ -68,8 +69,7 @@ body {
  }
 
  figure {
-    margin: auto;
-    width: 400px;
+    
  }
 
  img {
@@ -88,4 +88,12 @@ body {
 
  .tack {
 
+ }
+
+ ul a:hover{
+    background-color: lightblue;
+ }
+
+ ul .aktiv {
+    background-color: lightblue;
  }
