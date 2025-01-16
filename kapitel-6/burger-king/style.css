@@ -1,0 +1,74 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+
+/* 
+backgrunds färg = #FBF7F1 
+burger bg färg = #F5EBDC
+text färg = #502314
+kanpp färg  = #CC2200
+typsnitt = 
+  font-family: "Luckiest Guy", serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+
+/* sidlayout */
+
+body {
+
+}
+
+.kontainer {
+
+}
+
+/* sidhuvud */
+.sidhuvud{
+
+}
+
+.sidhuvud .meny{
+
+}
+
+.sidhuvud .meny a {
+
+}
+
+.sidhuvud .erbjudanden{
+
+}
+
+/* sid inehåll */
+
+.inehall
+
+.inehall h2{
+
+}
+
+.innehall .kolumner-3{
+
+}
+
+.innehall .kolumner-3 .burgare{
+    
+}
+
+.innehall .kolumner-3 .burgare img{
+
+}
+
+.innehall .kolumner-3 .burgare p{
+
+}
