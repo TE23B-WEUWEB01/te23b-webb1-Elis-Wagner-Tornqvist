@@ -1,0 +1,95 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+
+
+body{
+    background-image: url(./bilder/backg.jpg);
+    background-repeat: no-repeat;
+    background-color: #F3F0DD;
+}
+
+.kontainer {
+width: 850px;
+margin: auto;
+}
+
+.kontainer .sidohuvud{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 2px;
+}
+.sidohuvud a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-text-fill-color: #fff;
+}
+
+.sidohuvud .logo{
+    width: 125px;
+
+}
+
+.innehall{
+background-color: #F9F8F1;
+width: 850px;
+height: 750px;
+margin: 25px auto;
+padding: 25px;
+}
+
+.innehall h1 {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.innehall p {
+    text-align: center;
+    padding: 15px;
+}
+
+.innehall .kolumner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 10px;
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+.innehall .kolumner .kolumn-1{
+    background-color: #fff;
+}
+.innehall .kolumner .kolumn-2{
+    background-color: #fff;
+}
+.innehall .kolumner .kolumn-3{
+    background-color: #fff;
+}
+.innehall .kolumner .kolumn-4{
+    background-color: #fff;
+}
+
+.innehall .kolumner img {
+    width: 190px ;
+}
+
