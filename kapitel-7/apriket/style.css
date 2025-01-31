@@ -12,18 +12,50 @@ img {
 width: 100%;
 }
 
+body{
+    background-image: url(./bilder/chris-abney-qLW70Aoo8BE-unsplash\ \(1\).jpg);
+}
 
 .kontainer{
+ width: 1000px;
+ margin: auto;
+ padding: 20px;
+}
 
+/* bygga layouten */
+.kontainer{
+display: grid;
+grid-template-columns: 3fr 1fr;
+grid-template-areas: 
+"sidhuvud sidhuvud"
+"artiklarna sidebar"
+"sidfot sidfot";
+}
+header{
+grid-area: sidhuvud;
+background-color: burlywood;
+}
+main{
+grid-area: artiklarna;
+background-color: goldenrod;
+}
+aside{
+grid-area: sidebar;
+background-color: crimson;
+}
+footer{
+grid-area: sidfot;
+background-color: magenta;
 }
 
 /* sidohuvud */
 
 header{
-
+color: #fff;
+font-family: monospace;
 }
 header h1{
-
+font-size: 80px;
 }
 header h2{
 
@@ -51,19 +83,22 @@ header nav a:hover{
 main{
 
 }
-main h3{
+main article{
 
 }
-main figure{
+main article h3{
 
 }
-main figure img{
+main article figure{
 
 }
-main figure figcaption{    
+main article figure img{
 
 }
-main p{    
+main article figure figcaption{    
+
+}
+main article p{    
 
 }
 
