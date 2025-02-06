@@ -30,22 +30,29 @@ grid-template-areas:
 "sidhuvud sidhuvud"
 "artiklarna sidebar"
 "sidfot sidfot";
+gap: 20px;
 }
 header{
 grid-area: sidhuvud;
-background-color: burlywood;
 }
 main{
 grid-area: artiklarna;
-background-color: goldenrod;
+background-color: #FFF;
+border-radius: 10px;
+padding: 20px;
+
 }
 aside{
 grid-area: sidebar;
-background-color: crimson;
+background-color: #FFF;
+border-radius: 10px;
+padding: 20px;
 }
 footer{
 grid-area: sidfot;
-background-color: magenta;
+background-color: #FFF;
+border-radius: 10px;
+padding: 20px;
 }
 
 /* sidohuvud */
@@ -64,18 +71,24 @@ header h2{
 /* menyn */
 
 header nav {
-
+    background-color: rgb(0,255,8);
+    background: linear-gradient(0deg, rgba(0,255,8,1) 27%, rgba(9,121,26,1) 100%);;
+    padding: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header nav a{
-
+color: white;
+text-decoration: none;
+padding: 12px;
 }
 
 header nav a.aktiv{
-
+    color: lightblue;
 }
 header nav a:hover{
-
+    background: rgb(39,62,40);
+background: linear-gradient(0deg, rgba(39,62,40,1) 27%, rgba(32,71,38,1) 100%);
 }
 
 
@@ -90,7 +103,10 @@ main article h3{
 
 }
 main article figure{
-
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid;
 }
 main article figure img{
 
