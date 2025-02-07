@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+    body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    }
+    img {
+    width: 100%;
+    }
+    
+    
+    /* holy grail layouten */
+    
+    .kontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud sidhuvud"
+        "meny meny meny"
+        "artiklar1 artiklar2 artiklar3"
+        "artiklar4 artiklar4 artiklar4"
+        "sidfot sidfot sidfot"
+        ;
+        width: 800px;
+        margin: auto;
+    }
+    
+    
+    header{
+        background-color: lightblue;
+        grid-area: sidhuvud;
+        padding: 15px;
+        
+        border-radius: 20px;
+    }
+    
+    nav {
+        background-color: lightcoral;
+        grid-area: meny;
+        padding: 15px;
+        border-radius: 20px;
+     
+    }
+    
+   .art1 {
+        background-color: burlywood;
+        grid-area: artiklar1;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    
+    .art2{
+        background-color: whitesmoke;
+        grid-area: artiklar2;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .art3{
+        background-color: lightsalmon;
+        grid-area: artiklar3;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .art4{
+        background-color: lightskyblue;
+        grid-area: artiklar4;
+        padding: 15px;
+        border-radius: 20px;
+        min-height: 35vh;
+    }
+    
+    footer{
+        background-color: lightgreen;
+        grid-area: sidfot;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    

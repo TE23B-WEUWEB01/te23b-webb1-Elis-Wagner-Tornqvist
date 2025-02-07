@@ -1,0 +1,67 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+img {
+width: 100%;
+}
+
+
+/* holy grail layouten */
+
+.kontainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud sidhuvud"
+    "meny artiklar sidebar"
+    "sidfot sidfot sidfot"
+    ;
+    width: 800px;
+    margin: auto;
+}
+
+
+header{
+    background-color: lightblue;
+    grid-area: sidhuvud;
+    padding: 15px;
+    min-height: 10vh;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: lightcoral;
+    grid-area: meny;
+    padding: 15px;
+    border-radius: 20px;
+    min-height: 80vh;
+}
+
+main{
+    background-color: burlywood;
+    grid-area: artiklar;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+aside{
+    background-color: whitesmoke;
+    grid-area: sidebar;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: lightgreen;
+    grid-area: sidfot;
+    padding: 15px;
+    min-height: 10vh;
+    border-radius: 20px;
+}
