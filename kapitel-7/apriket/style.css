@@ -1,138 +1,175 @@
 html {
-box-sizing: border-box;
-}
-*, *:before, *:after {
-box-sizing: inherit;
-}
-body, h1, h2, h3, h4, h5, h6, p, ul {
-margin: 0;
-padding: 0;
-}
-img {
-width: 100%;
+    box-sizing: border-box;
 }
 
-body{
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
     background-image: url(./bilder/chris-abney-qLW70Aoo8BE-unsplash\ \(1\).jpg);
 }
 
-.kontainer{
- width: 1000px;
- margin: auto;
- padding: 20px;
-}
+.kontainer {}
 
 /* bygga layouten */
-.kontainer{
-display: grid;
-grid-template-columns: 3fr 1fr;
-grid-template-areas: 
-"sidhuvud sidhuvud"
-"artiklarna sidebar"
-"sidfot sidfot";
-gap: 20px;
+/* för mobil < 576px */
+@media (min-width: 576px) {
+    .kontainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "sidhuvud"
+            "artiklarna"
+            "sidebar"
+            "sidfot";
+        gap: 20px;
+    }
 }
-header{
-grid-area: sidhuvud;
+
+/* för läsplatta < 768px */
+@media (min-width: 768px) {
+    .kontainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "artiklarna sidebar"
+            "sidfot sidfot";
+        gap: 20px;
+    }
 }
-main{
-grid-area: artiklarna;
-background-color: #FFF;
-border-radius: 10px;
-padding: 20px;
+
+/* För desktop >= 1000px*/
+@media (min-width: 1200px) {
+    .kontainer {
+        width: 1200px;
+        margin: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "artiklarna sidebar"
+            "sidfot sidfot";
+        gap: 20px;
+    }
+}
+
+header {
+    grid-area: sidhuvud;
+}
+
+main {
+    grid-area: artiklarna;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
 
 }
-aside{
-grid-area: sidebar;
-background-color: #FFF;
-border-radius: 10px;
-padding: 20px;
+
+aside {
+    grid-area: sidebar;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
 }
-footer{
-grid-area: sidfot;
-background-color: #FFF;
-border-radius: 10px;
-padding: 20px;
+
+footer {
+    grid-area: sidfot;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /* sidohuvud */
 
-header{
-color: #fff;
-font-family: monospace;
+header {
+    color: #fff;
+    font-family: monospace;
 }
-header h1{
-font-size: 80px;
-}
-header h2{
 
+header h1 {
+    font-size: 80px;
 }
+
+header h2 {}
 
 /* menyn */
 
 header nav {
-    background-color: rgb(0,255,8);
-    background: linear-gradient(0deg, rgba(0,255,8,1) 27%, rgba(9,121,26,1) 100%);;
+    background-color: rgb(0, 255, 8);
+    background: linear-gradient(0deg, rgba(0, 255, 8, 1) 27%, rgba(9, 121, 26, 1) 100%);
+    ;
     padding: 20px 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header nav a{
-color: white;
-text-decoration: none;
-padding: 12px;
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
 }
 
-header nav a.aktiv{
+header nav a.aktiv {
     color: lightblue;
 }
-header nav a:hover{
-    background: rgb(39,62,40);
-background: linear-gradient(0deg, rgba(39,62,40,1) 27%, rgba(32,71,38,1) 100%);
+
+header nav a:hover {
+    background: rgb(39, 62, 40);
+    background: linear-gradient(0deg, rgba(39, 62, 40, 1) 27%, rgba(32, 71, 38, 1) 100%);
 }
 
 
 /* innehåll */
-main{
+main {}
 
-}
-main article{
+main article {}
 
-}
-main article h3{
+main article h3 {}
 
-}
-main article figure{
+main article figure {
     width: 50%;
     margin: auto;
     padding: 30px;
     border: 1px solid;
 }
-main article figure img{
 
-}
-main article figure figcaption{    
+main article figure img {}
 
-}
-main article p{    
+main article figure figcaption {}
 
-}
+main article p {}
 
 /* sidobar */
-aside{
+aside {}
 
-}
-aside h4{
+aside h4 {}
 
-}
-aside p{
-
-}
+aside p {}
 
 /* sidfoten */
-footer{
+footer {}
 
-}
-footer p{
-    
-}
+footer p {}
