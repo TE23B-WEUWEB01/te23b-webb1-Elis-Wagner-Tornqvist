@@ -2,6 +2,7 @@
 
 .wanderer{
     background: black;
+    color: white;
 }
 
 .wanderer .vimeo{
@@ -27,3 +28,21 @@
     transform: translate(-50%, -50%);
     border: none;
 }
+
+.wanderer main{
+    /* css trick för vertikal centrering */
+    display: grid;
+    align-items: center;
+}
+
+.Keppler196f h1{
+    color: crimson;
+}
+
+.Keppler196f header nav a {
+    color: crimson;
+}
+.Keppler196f header nav a, .Keppler196f nav a.active{
+   border-bottom: 3px solid crimson;
+}
+
