@@ -1,0 +1,91 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+img {
+width: 100%;
+}
+
+/* sidans utseende */
+body{
+ background-color: rgb(255, 149, 237);
+}
+
+.kontainer{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: lightblue;
+
+}
+/* sidhuvudet */
+.kontainer header{
+    
+}
+
+.kontainer header h1 {
+    
+}
+.kontainer header nav {
+
+}
+.kontainer header nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: darkblue;
+    padding: 10px;
+}
+.kontainer header nav a:hover{
+    background-color: aquamarine;
+}
+.kontainer header nav a.aktiv{
+    background-color: aquamarine;
+}
+
+
+/* sidans innehåll */
+
+.kontainer main{
+    
+}
+.kontainer main h2{
+
+}
+.kontainer main p{
+
+}
+
+
+/* sidan sidfot */
+
+.kontainer footer{
+    
+}
+.kontainer footer p{
+
+}
+.kontainer footer p a{
+    
+}
+.kontainer footer p a:hover{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
