@@ -1,0 +1,21 @@
+.kontainer{
+    width: 800px;
+    background-color: aquamarine;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: darkred;
+    text-align: center;
+}
+
+button{
+    
+}
+
+p{
+    visibility:hidden;
+}
